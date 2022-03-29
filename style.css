@@ -1,0 +1,117 @@
+/* utility classes */
+* {
+    padding: 0;
+    margin: 0;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+.flex2 {
+    display: flex;
+    justify-content: baseline;
+}
+body {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.bold {
+    font-weight: bolder;
+}
+
+/* utility classes */
+
+/* top bar */
+a {
+    color: blue;
+}
+header {
+    background-color: gray;
+    min-height: 50px;
+    align-items: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    margin-bottom: 5rem;
+}
+
+.btn1 {
+    background-color: blue;
+    color: white;
+    padding: .5rem;
+    border: 2px solid black;
+    box-shadow: 3px 3px rgb(43, 42, 42);
+    cursor: pointer;
+}
+.searchbar {
+    border: 2px solid black;
+    padding: .3rem;
+}
+/* top bar */
+
+/* main boxes */
+.btn3 {
+    cursor: pointer;
+    background-color: green;
+    border: 2px solid black;
+    padding: .5rem;
+    font-weight: bold;
+    font-size: medium;
+    box-shadow: 2px 2px rgb(43, 42, 42);
+    margin-top: 5rem;
+
+}
+.div2 {
+    margin: 1rem;
+}
+.div3 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+h2 {
+    font-size: xxx-large;
+}
+h4 {
+    font-size: larger;
+    
+}
+.center {
+    padding-left: 2rem;
+}
+.italic {
+    font-style: italic;
+}
+.bbox > * {
+    padding-top: .5rem;
+}
+.btn2 {
+    cursor: pointer;
+    background-color: yellow;
+    border: 2px solid black;
+    padding: .5rem;
+    font-weight: bold;
+    font-size: medium;
+    box-shadow: 2px 2px rgb(43, 42, 42);
+    margin-top: 1rem;
+}
+/* main boxes */
+.sub-box {
+    flex: 1;
+}
+.sub-box2 {
+    flex: 2;
+    align-items: center;
+    padding: 5rem 0;
+}
+.container {
+    max-width: max-content;
+    border: 2px solid black;
+    margin: .5rem 0;
+    padding: 1rem;
+}
+.left-box {
+    border: 3px solid black;
+    padding: 1rem;
+
+}
